@@ -49,7 +49,6 @@ Gem::Specification.new do |s|
   s.add_dependency("fog-xml", "~> 0.1.1")
   
   # JSON locked for Ruby 1.9, remove once deprecated
-  s.add_dependency("json", ">= 1.8", "< 2.0")
   s.add_dependency("ipaddress", "~> 0.5")
 
   # Modular providers (please keep sorted)
@@ -60,7 +59,7 @@ Gem::Specification.new do |s|
   s.add_dependency("fog-cloudatcost", "~> 0.1.0")
   s.add_dependency("fog-dynect", "~> 0.0.2")
   s.add_dependency("fog-ecloud", "~> 0.1")
-  s.add_dependency("fog-google", "<= 0.1.0")
+  s.add_dependency("fog-google", ">= 0.1.0")
   s.add_dependency("fog-local")
   s.add_dependency("fog-openstack")
   s.add_dependency("fog-powerdns", ">= 0.1.1")
